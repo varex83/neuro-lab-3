@@ -1,0 +1,1 @@
+mkdir -p fruits-360 && cd fruits-360 && curl -L "https://github.com/Horea94/Fruit-Images-Dataset/archive/refs/heads/master.zip" -o fruits.zip && unzip fruits.zip && mv Fruit-Images-Dataset-master/* . && rm -rf Fruit-Images-Dataset-master fruits.zip
